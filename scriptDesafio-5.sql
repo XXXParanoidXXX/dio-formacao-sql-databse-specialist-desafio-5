@@ -41,7 +41,7 @@ Crie o índice para cada tabela envolvida (de acordo com a necessidade)
 
 Tipo de indice utilizado e motivo da escolha (via comentário no script ou readme) 
 */
-drop database db_company;
+
 create database if not exists db_company;
 
 create table if not exists departament(
